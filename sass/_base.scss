@@ -1,0 +1,39 @@
+//Overall Reset
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; //1rem = 10px
+    //
+    @media only screen and (max-width: $bp-medium) {
+        font-size: 50%;
+    }
+}
+
+body {
+    font-family: $display-font-family;
+    font-weight: 700;
+    font-size: 1.4rem;
+    background-color: $color-dark-theme-bg;
+    color: $color-white;
+    display: grid;
+    grid-template-columns: [full-start] 1fr [content-start] 80vw [content-end] 1fr [full-end];
+    grid-template-rows: 25rem repeat(3, max-content);
+    transition-property: background-color, color;
+    transition-duration: .2s;
+    //
+    &.light {
+        background-color: $color-white;
+        color: $color-light-theme-dark-text;
+    }
+    //
+    @media only screen and (max-width: $bp-medium) {
+        grid-template-rows: 30rem repeat(3, max-content);
+    }
+}

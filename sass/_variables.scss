@@ -1,0 +1,34 @@
+//Color Variables
+$color-white: #fff;
+$color-primary-light: #1db489;
+$color-primary-red:#dc414c;
+$color-facebook: #198ff5;
+$color-twitter: #1ca0f2;
+$color-instagram-light: #fdc468;
+$color-instagram-dark: #df4996;
+$color-youtube: #c4032a;
+// $color-dark-theme-toggle-gradient-start: #378fe6;
+// $color-dark-theme-toggle-gradient-end: #3eda82;
+$color-light-theme-toggle: #aeb3cb;
+$color-dark-theme-bg: #1e202a;
+$color-dark-theme-top-bg: #1f212e;
+$color-dark-theme-card-bg: #252a41;
+$color-dark-theme-text:#8b97c6;
+$color-light-theme-top-bg: #f5f7ff;
+$color-light-theme-card-bg: #f0f2fa;
+$color-light-theme-text: #63687e;
+$color-light-theme-dark-text: #1e202a;
+////////////////
+//Font Variables
+$display-font-family:'Inter',
+sans-serif;
+////////////////
+//Gradients
+$toggle-gradient: linear-gradient(to right, #378fe6, #3eda82);
+$toggle-gradient-reverse: linear-gradient(to left, #378fe6, #3eda82);
+$instagram-gradient: linear-gradient(to right, #fdc468, #df4996);
+////////////////
+//Breakpoint Variables
+$bp-large: 81.25em; //1300px
+$bp-medium: 37.5em; //600px
+$bp-small: 31.25em; //500px
